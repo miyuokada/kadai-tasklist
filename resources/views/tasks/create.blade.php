@@ -21,14 +21,7 @@
     </div>
 </div>
 
-        {!! Form::label('status', 'ステータス:') !!}
-        {!! Form::text('status') !!}
         
-        
-        {!! Form::label('content', 'tasklist:') !!}
-        {!! Form::text('content') !!}
-
-        {!! Form::submit('Submit') !!}
 
     {!! Form::close() !!}
 
